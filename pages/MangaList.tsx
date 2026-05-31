@@ -22,14 +22,14 @@ const MangaList: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-[#0a0a0a]">
       <SEOHead
-        title="Nano Machine Manga - All 312 Chapters | Read Online Free"
-        description="Browse all 312 Nano Machine chapters online. Read from Chapter 1 to Chapter 312 in English with HD quality scans. Updated 2026-05-26."
+        title="Nano Machine Manga - All 314 Chapters | Read Online Free"
+        description="Browse all 314 Nano Machine chapters online. Read from Chapter 1 to Chapter 314 in English with HD quality scans. Updated 2026-05-30."
         canonicalUrl="https://nanomachinemanga.online/manga"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Nano Machine Manga - All Chapters",
-          "description": "Browse all 312 Nano Machine chapters online. Read from Chapter 1 to Chapter 312 in English with HD quality scans.",
+          "description": "Browse all 314 Nano Machine chapters online. Read from Chapter 1 to Chapter 314 in English with HD quality scans.",
           "url": "https://nanomachinemanga.online/manga",
           "isPartOf": {
             "@type": "WebSite",

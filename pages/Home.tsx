@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     <>
       <SEOHead
         title="Nano Machine Manga - Read Online High Quality"
-        description="Read Nano Machine Manga online in high quality. All 312 chapters free, no sign-up required. Follow Cheon Yeo-Woon's rise through the Demonic Cult."
+        description="Read Nano Machine Manga online in high quality. All 314 chapters free, no sign-up required. Follow Cheon Yeo-Woon's rise through the Demonic Cult."
         canonicalUrl="https://nanomachinemanga.online/"
         schema={{
           "@context": "https://schema.org",
@@ -26,8 +26,8 @@ const Home: React.FC = () => {
             "name": "Hanjung Wolya"
           },
           "genre": ["Action", "Adventure", "Fantasy", "Sci-Fi", "Wuxia"],
-          "numberOfIssues": 312,
-          "datePublished": "2020",
+          "numberOfIssues": 314,
+          "datePublished": "2020-01-31",
           "inLanguage": "en",
           "publisher": {
             "@type": "Organization",
@@ -111,7 +111,7 @@ const Home: React.FC = () => {
                   <div className="flex flex-col gap-2 items-start border-t border-white/5 pt-3">
                     <span className="text-gray-500 text-xs font-bold uppercase tracking-wider">Synopsis:</span>
                     <p className="text-sm text-gray-300 leading-relaxed">
-                      An orphan prince of the Demonic Cult receives a futuristic nanomachine injection from his descendant, granting him incredible powers.
+                      Nanotechnology meets martial arts at the Mashin Academy. Yeo-Un’s mother may not be one of the High Priest’s six official wives, but his father’s blood still qualifies him for a chance at the position of Minor Priest. Will a mysterious nanomachine injection from a future descendent help Yeo-un in this fierce competition against his powerful half-siblings?
                     </p>
                   </div>
                 </div>
@@ -210,7 +210,7 @@ const Home: React.FC = () => {
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Synopsis</h3>
               <p>
-                An orphan prince of the Demonic Cult receives a futuristic nanomachine injection from his descendant, granting him incredible powers.
+                Nanotechnology meets martial arts at the Mashin Academy. Yeo-Un’s mother may not be one of the High Priest’s six official wives, but his father’s blood still qualifies him for a chance at the position of Minor Priest. Will a mysterious nanomachine injection from a future descendent help Yeo-un in this fierce competition against his powerful half-siblings?
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Key Characters</h3>
@@ -252,7 +252,7 @@ const Home: React.FC = () => {
             <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Is the Nano Machine Manga Finished?</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                No, the <strong>Nano Machine manga</strong> is currently ongoing. New chapters are released in Weekly Shonen Magazine.
+                No, the <strong>Nano Machine manhwa</strong> is currently ongoing. New chapters are released weekly on Naver Webtoon and are available here in English as soon as they drop.
               </p>
             </div>
 
@@ -276,7 +276,7 @@ const Home: React.FC = () => {
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">What is Nano Machine?</h3>
               <p>
-                An orphan prince of the Demonic Cult receives a futuristic nanomachine injection from his descendant, granting him incredible powers.
+                Nanotechnology meets martial arts at the Mashin Academy. Yeo-Un’s mother may not be one of the High Priest’s six official wives, but his father’s blood still qualifies him for a chance at the position of Minor Priest. Will a mysterious nanomachine injection from a future descendent help Yeo-un in this fierce competition against his powerful half-siblings?
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Why is Nano Machine So Popular?</h3>

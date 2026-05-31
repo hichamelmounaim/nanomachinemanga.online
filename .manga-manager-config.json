@@ -1,0 +1,50 @@
+{
+  "mangaEdgeSlug": "k5ak9c-nano-machine",
+  "history": [
+    {
+      "id": "pkma08a",
+      "date": "2026-05-30T15:06:27.677Z",
+      "type": "scrape",
+      "description": "Scraped successfully. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 313
+      }
+    },
+    {
+      "id": "q3y7eoh",
+      "date": "2026-05-30T15:23:19.880Z",
+      "type": "scrape",
+      "description": "Scraped successfully. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 313
+      }
+    },
+    {
+      "id": "4xnax59",
+      "date": "2026-05-30T15:32:49.161Z",
+      "type": "scrape",
+      "description": "Scraped successfully. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 313
+      }
+    },
+    {
+      "id": "y0a2kjh",
+      "date": "2026-05-30T16:17:16.658Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. No new chapters found. Up to date!",
+      "details": {
+        "newChaptersCount": 0,
+        "newChapterNumbers": [],
+        "totalChapters": 313,
+        "bulkSync": true
+      }
+    }
+  ]
+}

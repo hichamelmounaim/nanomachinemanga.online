@@ -1,11 +1,28 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://w1.bluelocken.com';
+const DOMAIN = 'https://nanomachinemanga.online';
 
-// Replicate logic from constants.ts to get all chapter IDs
-const chapters = Array.from({ length: 347 }, (_, i) => i + 1);
+const mangaData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '../public/scraped_k5ak9c-nano-machine.json'), 'utf-8')
+);
 
+const SERIES_START = new Date('2020-01-31T00:00:00Z').getTime();
+const NOW = new Date().getTime();
+const TODAY = new Date().toISOString().split('T')[0];
+
+const sortedChapters = [...mangaData.chapters].sort((a, b) => a.chapter_number - b.chapter_number);
+const totalChapters = sortedChapters.length;
+
+// Build chapter list with release dates interpolated between SERIES_START and NOW
+const chapters = sortedChapters.map((ch, index) => {
+  const fraction = totalChapters > 1 ? index / (totalChapters - 1) : 1;
+  const releaseTime = SERIES_START + (NOW - SERIES_START) * fraction;
+  return {
+    number: ch.chapter_number,
+    releaseDate: new Date(releaseTime).toISOString().split('T')[0],
+  };
+});
 
 const pages = [
   '',
@@ -26,6 +43,7 @@ let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 pages.forEach(page => {
   sitemap += `  <url>
     <loc>${DOMAIN}${page}</loc>
+    <lastmod>${TODAY}</lastmod>
     <changefreq>daily</changefreq>
     <priority>${page === '' ? '1.0' : '0.8'}</priority>
   </url>
@@ -33,9 +51,10 @@ pages.forEach(page => {
 });
 
 // Add chapters
-chapters.forEach(num => {
+chapters.forEach(ch => {
   sitemap += `  <url>
-    <loc>${DOMAIN}/chapter/${num}</loc>
+    <loc>${DOMAIN}/chapter/${ch.number}</loc>
+    <lastmod>${ch.releaseDate}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

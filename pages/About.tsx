@@ -6,7 +6,8 @@ const About: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 py-16 min-h-screen">
             <SEOHead
                 title="About Us - Nano Machine Manga"
-                description="Learn more about Nano Machine Manga, our mission, and why we are the best place to read Nano Machine online."
+                description="Learn more about Nano Machine Manga, our mission, and why we are the best place to read Nano Machine manhwa online in English."
+                canonicalUrl="https://nanomachinemanga.online/about"
             />
 
             <h1 className="text-3xl md:text-4xl font-bold mb-8 dark:text-white border-b border-gray-200 dark:border-gray-800 pb-4">

@@ -367,7 +367,7 @@ const ChapterReader: React.FC = () => {
           <h2 className="text-bb-blue font-bold uppercase tracking-widest mb-4 text-xs">Nano Machine Manga</h2>
           <p className="text-gray-500 text-sm leading-relaxed max-w-2xl mx-auto">
             You are currently reading <strong className="text-gray-400">Nano Machine Chapter {chapter.number}</strong> online in high quality. 
-            Enjoy the latest installment of Jeong Jun-Gyu & Keum Gang-Bul-Gae's hit masterpiece, and follow the journey to become the world's greatest striker.
+            Enjoy the latest installment of Hanjung Wolya's hit manhwa, and follow Cheon Yeo-Woon's journey from a scorned orphan to the greatest martial artist in the Demonic Cult.
           </p>
         </div>
       </div>

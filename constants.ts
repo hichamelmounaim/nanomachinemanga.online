@@ -19,28 +19,100 @@ export const MOCK_CHAPTERS: Chapter[] = [...mangaData.chapters]
 
 export const CHARACTERS: Character[] = [
   {
-    "id": "yeowoon",
-    "name": "Cheon Yeo-Woon",
-    "role": "Protagonist",
-    "grade": "Cult Leader",
-    "description": "An illegitimate prince who uses nanotechnology to conquer Murim.",
-    "image": "https://picsum.photos/400/600?random=10"
+    "id": "yeo-un-cheon",
+    "name": "Yeo-Un Cheon",
+    "role": "MAIN",
+    "grade": "Protagonist",
+    "description": "He was a member of the Cheon Family and was the son of a female servant who worked at the Lord’s chamber and was not from the Six Clans. Although considered as an illegitimate son of the Lord due to a...",
+    "image": "/characters/yeo-un-cheon.png"
   },
   {
-    "id": "nano",
-    "name": "Nano",
-    "role": "Helper",
-    "grade": "AI System",
-    "description": "The advanced artificial intelligence system inside Yeo-Woon.",
-    "image": "https://picsum.photos/400/600?random=11"
+    "id": "won-ryeo-cheon",
+    "name": "Won-Ryeo Cheon",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Won-Ryeo Cheon was the Sound Clan candidate for the throne.",
+    "image": "/characters/won-ryeo-cheon.png"
   },
   {
-    "id": "markim",
-    "name": "Mar Kim",
-    "role": "Ally",
-    "grade": "Great Guardian",
-    "description": "A loyal elder and protector of the Demonic Cult.",
-    "image": "https://picsum.photos/400/600?random=12"
+    "id": "baek-gi",
+    "name": "Baek-Gi",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Coming from the Gentle Kick Clan, he is one of the most trusted followers of Cheon Yeo-Woon.",
+    "image": "/characters/baek-gi.jpg"
+  },
+  {
+    "id": "maeng-seop",
+    "name": "Maeng Seop",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "The Right Guardian of the Demonic Cult. His nickname is Crazy Blade, due to his drunkard-like and unpredictable blade skills. He is the first Teacher Yeo-Woon Cheon had in his martial arts journey.",
+    "image": "/characters/maeng-seop.png"
+  },
+  {
+    "id": "jong-seom-cheon",
+    "name": "Jong-Seom Cheon",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Jong-Seom Cheon was the Poison Clan candidate for the throne.",
+    "image": "/characters/jong-seom-cheon.png"
+  },
+  {
+    "id": "yeo-gun-wang",
+    "name": "Yeo-Gun Wang",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "She is the daughter of Wang Jeon, one of the Five Greatest Martial Artists.",
+    "image": "/characters/yeo-gun-wang.jpg"
+  },
+  {
+    "id": "ga-gyeong-jang",
+    "name": "Ga-Gyeong Jang",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Ga-Gyeong Jang was the parental figure of Yeo-Woon Cheon's early life and served Lady Hwa until she died. He went to crown Yeo-Woon as the Lord of the Demonic Cult during his Coronation Ceremony.",
+    "image": "/characters/ga-gyeong-jang.png"
+  },
+  {
+    "id": "baek",
+    "name": "Baek",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Lady Baek is the one who asked the Poison Clan to poison Lady Hwa, Yeo-Woon's mother.",
+    "image": "/characters/baek.png"
+  },
+  {
+    "id": "ran-yeong-mun",
+    "name": "Ran-Yeong Mun",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "She was one of the twelve expert martial artists from the Demonic Cult that were tasked to protect the Kirin blood.",
+    "image": "/characters/ran-yeong-mun.jpg"
+  },
+  {
+    "id": "mun-gyu",
+    "name": "Mun-Gyu",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Gyu Mun is the female protagonist of Nano Machine. She is the granddaughter of Yun Mun, one of the elders of the Demonic Cult. She is a part of Yeo-Woon Cheon's team during their stay in the Demonic Academy.",
+    "image": "/characters/mun-gyu.png"
+  },
+  {
+    "id": "mu-hwa-yeon",
+    "name": "Mu-Hwa Yeon",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "Mu-Hwa Yeon is the 2nd Council Elder of the Demonic Cult (Formerly 10th) as well as the only female elder aside from Soyu Hang.",
+    "image": "/characters/mu-hwa-yeon.png"
+  },
+  {
+    "id": "heo-bong",
+    "name": "Heo-Bong",
+    "role": "SUPPORTING",
+    "grade": "Supporting",
+    "description": "He is Cheon Yeo-Un's first subordinate.",
+    "image": "/characters/heo-bong.png"
   }
 ];
 

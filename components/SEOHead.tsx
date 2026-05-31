@@ -19,6 +19,21 @@ const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonical
     }
     metaDescription.setAttribute('content', description);
 
+    // Update Open Graph tags
+    const setOgMeta = (property: string, content: string) => {
+      let el = document.querySelector(`meta[property="${property}"]`);
+      if (!el) {
+        el = document.createElement('meta');
+        el.setAttribute('property', property);
+        document.head.appendChild(el);
+      }
+      el.setAttribute('content', content);
+    };
+    setOgMeta('og:title', title);
+    setOgMeta('og:description', description);
+    setOgMeta('twitter:title', title);
+    setOgMeta('twitter:description', description);
+
     // Add Canonical Tag
     if (canonicalUrl) {
       let linkCanonical = document.querySelector('link[rel="canonical"]');
