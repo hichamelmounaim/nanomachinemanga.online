@@ -40,8 +40,8 @@ const Home: React.FC = () => {
       <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-bb-dark py-20">
         <div className="absolute inset-0 z-0 opacity-30 select-none pointer-events-none">
           <img
-            src="/nano_machine.webp"
-            alt=""
+            src="/nano-machine-cover.jpg"
+            alt="Nano Machine Manga Cover - Cheon Yeo-Woon standing amidst blue lightning and a majestic dragon"
             width="1920"
             height="1080"
             fetchPriority="high"

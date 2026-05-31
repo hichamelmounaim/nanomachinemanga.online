@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
 
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center gap-2 group">
-            <img src="/logo.png" alt="Nano Machine Manga" className="h-10 w-auto" />
+            <img src="/nano-machine-logo.png" alt="Nano Machine Manga Official Logo featuring a stylized N and a blue dragon" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Nav */}

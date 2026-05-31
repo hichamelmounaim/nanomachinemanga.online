@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://nanomachinemanga.online';
+const DOMAIN = 'https://www.nanomachinemanga.online';
 
 const mangaData = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../public/scraped_k5ak9c-nano-machine.json'), 'utf-8')
