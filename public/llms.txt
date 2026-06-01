@@ -1,0 +1,33 @@
+# Nano Machine Manga — nanomachinemanga.online
+
+## About
+Nano Machine Manga is a fan reading platform dedicated to the manhwa series "Nano Machine" (나노마신) by Hanjung Wolya. The site provides free access to high-quality English scans of all available chapters.
+
+## Manga Info
+- Title: Nano Machine
+- Alternative Titles: 나노마신, Nanomachine, Nano Mashin
+- Author: Hanjung Wolya
+- Artist: Geum Gangsa
+- Publisher: Naver Webtoon
+- Serialization Start: January 31, 2020
+- Status: Completed
+- Genre: Action, Adventure, Fantasy, Sci-Fi, Wuxia, Manhwa
+- Synopsis: Cheon Yeo-Woon, an illegitimate orphan of the Demonic Cult's leader, receives a nano machine from a future descendant. The nano machine gives him superhuman martial arts abilities, allowing him to rise through the deadly ranks of the Demonic Cult.
+
+## Key Characters
+- Cheon Yeo-Woon — protagonist, nano machine host
+- Mun Ku — ally and love interest
+- Yeowun's father — the Lord of the Demonic Cult
+
+## Site Pages
+- Homepage: https://nanomachinemanga.online/
+- All Chapters: https://nanomachinemanga.online/manga
+- Chapter Reader: https://nanomachinemanga.online/chapter/{number}
+- Characters: https://nanomachinemanga.online/characters
+- About: https://nanomachinemanga.online/about
+
+## Contact
+Email: support@nanomachinemanga.online
+
+## Disclaimer
+This is a fan project. Not affiliated with Hanjung Wolya, Naver, or any official publisher. All manga content belongs to their respective copyright owners.

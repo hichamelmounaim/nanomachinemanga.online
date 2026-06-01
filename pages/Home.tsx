@@ -15,25 +15,87 @@ const Home: React.FC = () => {
         title="Nano Machine Manga - Read Online High Quality"
         description="Read Nano Machine Manga online in high quality. All 314 chapters free, no sign-up required. Follow Cheon Yeo-Woon's rise through the Demonic Cult."
         canonicalUrl="https://nanomachinemanga.online/"
-        schema={{
-          "@context": "https://schema.org",
-          "@type": "ComicSeries",
-          "name": "Nano Machine",
-          "description": "After being held in disdain and having his life put in danger, an orphan from the Demonic Cult, Cheon Yeo-Woon, has an unexpected visit from his descendant from the future who inserts a nano machine into Cheon Yeo-Woon's body.",
-          "url": "https://nanomachinemanga.online/",
-          "author": {
-            "@type": "Person",
-            "name": "Hanjung Wolya"
+        schema={[
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Nano Machine Manga",
+            "url": "https://nanomachinemanga.online",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://nanomachinemanga.online/manga?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
           },
-          "genre": ["Action", "Adventure", "Fantasy", "Sci-Fi", "Wuxia"],
-          "numberOfIssues": 314,
-          "datePublished": "2020-01-31",
-          "inLanguage": "en",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Nano Machine Manga"
+          {
+            "@context": "https://schema.org",
+            "@type": "ComicSeries",
+            "name": "Nano Machine",
+            "alternateName": ["나노마신", "Nanomachine", "Nano Mashin"],
+            "description": "After being held in disdain and having his life put in danger, an orphan from the Demonic Cult, Cheon Yeo-Woon, has an unexpected visit from his descendant from the future who inserts a nano machine into his body, forever changing his fate.",
+            "url": "https://nanomachinemanga.online/",
+            "image": "https://nanomachinemanga.online/nano-machine-cover.jpg",
+            "author": {
+              "@type": "Person",
+              "name": "Hanjung Wolya"
+            },
+            "genre": ["Action", "Adventure", "Fantasy", "Sci-Fi", "Wuxia", "Manhwa"],
+            "numberOfEpisodes": chapters.length,
+            "startDate": "2020-01-31",
+            "inLanguage": "en",
+            "contentRating": "Teen",
+            "isAccessibleForFree": true,
+            "publisher": {
+              "@type": "Organization",
+              "name": "Naver"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.7",
+              "ratingCount": "22000",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How many chapters does Nano Machine have?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": `Nano Machine currently has ${chapters.length}+ chapters available to read online. The series began on Naver in 2020 and remains one of the most popular Korean manhwa worldwide.`
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Nano Machine finished?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nano Machine is completed. The manhwa has concluded its serialization on Naver Webtoon, and all chapters are available to read here in high quality."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who is the author of Nano Machine?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nano Machine was written by Hanjung Wolya and illustrated by Geum Gangsa. It was originally serialized on Naver Webtoon starting in January 2020."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Nano Machine about?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nano Machine follows Cheon Yeo-Woon, an illegitimate child of the Demonic Cult's leader, who receives a nano machine from a future descendant. The nano machine gives him superhuman martial arts abilities, allowing him to rise through the ranks of the dangerous Demonic Cult."
+                }
+              }
+            ]
           }
-        }}
+        ]}
       />
 
       {/* Hero Section */}
