@@ -57,6 +57,26 @@ const MangaList: React.FC = () => {
         </div>
       </div>
 
+      {/* Synopsis & Metadata Band */}
+      <div className="bg-white dark:bg-[#0f0f0f] border-b border-gray-100 dark:border-white/5 py-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-wrap gap-2 mb-4">
+            {['Action', 'Adventure', 'Fantasy', 'Sci-Fi', 'Wuxia', 'Manhwa'].map(g => (
+              <span key={g} className="px-3 py-1 rounded-full text-xs font-bold bg-bb-blue/10 text-bb-blue border border-bb-blue/20">{g}</span>
+            ))}
+          </div>
+          <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">
+            Cheon Yeo-Woon is an orphan born into the Demonic Cult whose life is put in constant danger by his half-brothers. A descendant from the future visits him and inserts a nano machine into his body — granting him extraordinary martial arts abilities and fueling his rise through the deadly ranks of the Demonic Cult.
+          </p>
+          <div className="flex flex-wrap gap-6 text-xs text-gray-500 dark:text-gray-500">
+            <span><strong className="text-gray-700 dark:text-gray-300">Author:</strong> Hanjung Wolya</span>
+            <span><strong className="text-gray-700 dark:text-gray-300">Publisher:</strong> Naver Webtoon</span>
+            <span><strong className="text-gray-700 dark:text-gray-300">Status:</strong> Completed</span>
+            <span><strong className="text-gray-700 dark:text-gray-300">Started:</strong> January 2020</span>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 -mt-8 relative z-20">
 
         {/* Controls Bar */}
