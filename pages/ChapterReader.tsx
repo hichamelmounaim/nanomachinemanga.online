@@ -7,11 +7,11 @@ import { useManga } from '../context/MangaContext';
 import { Chapter } from '../types';
 
 const SISTER_SITES = [
-  { name: 'Kingdom Manga', url: 'https://readkingdommanga.online/', desc: 'Xin and Zheng unify ancient China across 876+ epic chapters.' },
-  { name: 'Kagurabachi Manga', url: 'https://kagurabachimanga.online/', desc: 'Chihiro hunts sorcerers with enchanted blades in this Shonen Jump hit.' },
-  { name: 'Blue Lock Manga', url: 'https://readbluelockmanga.online/', desc: 'Isagi and 300 strikers battle for Japan\'s striker spot.' },
-  { name: 'Dandadan Manga', url: 'https://readdandadanmanga.online/', desc: 'Aliens, ghosts, and supernatural chaos by Tatsu Yukinobu.' },
-  { name: 'Gachiakuta Manga', url: 'https://readgachiakutamanga.online/', desc: 'Rudo fights to survive in the Pit with trash-powered abilities.' },
+  { name: 'Kingdom Manga', url: 'https://www.readkingdommanga.online/', desc: 'Xin and Zheng unify ancient China across 876+ epic chapters.' },
+  { name: 'Kagurabachi Manga', url: 'https://www.kagurabachimanga.online/', desc: 'Chihiro hunts sorcerers with enchanted blades in this Shonen Jump hit.' },
+  { name: 'Blue Lock Manga', url: 'https://www.readbluelockmanga.online/', desc: 'Isagi and 300 strikers battle for Japan\'s striker spot.' },
+  { name: 'Dandadan Manga', url: 'https://www.readdandadanmanga.online/', desc: 'Aliens, ghosts, and supernatural chaos by Tatsu Yukinobu.' },
+  { name: 'Gachiakuta Manga', url: 'https://www.readgachiakutamanga.online/', desc: 'Rudo fights to survive in the Pit with trash-powered abilities.' },
 ];
 
 const ChapterReader: React.FC = () => {

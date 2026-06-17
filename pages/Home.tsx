@@ -20,16 +20,16 @@ const Home: React.FC = () => {
       <SEOHead
         title="Nano Machine Manga - Read Online High Quality"
         description="Read Nano Machine Manga online in high quality. All 314 chapters free, no sign-up required. Follow Cheon Yeo-Woon's rise through the Demonic Cult."
-        canonicalUrl="https://nanomachinemanga.online/"
+        canonicalUrl="https://www.nanomachinemanga.online/"
         schema={[
           {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Nano Machine Manga",
-            "url": "https://nanomachinemanga.online",
+            "url": "https://www.nanomachinemanga.online",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://nanomachinemanga.online/manga?q={search_term_string}",
+              "target": "https://www.nanomachinemanga.online/manga?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
@@ -39,8 +39,8 @@ const Home: React.FC = () => {
             "name": "Nano Machine",
             "alternateName": ["나노마신", "Nanomachine", "Nano Mashin"],
             "description": "After being held in disdain and having his life put in danger, an orphan from the Demonic Cult, Cheon Yeo-Woon, has an unexpected visit from his descendant from the future who inserts a nano machine into his body, forever changing his fate.",
-            "url": "https://nanomachinemanga.online/",
-            "image": "https://nanomachinemanga.online/nano-machine-cover.jpg",
+            "url": "https://www.nanomachinemanga.online/",
+            "image": "https://www.nanomachinemanga.online/nano-machine-cover.jpg",
             "author": {
               "@type": "Person",
               "name": "Hanjung Wolya"
@@ -373,11 +373,11 @@ const Home: React.FC = () => {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {[
-            { name: 'Kagurabachi', url: 'https://kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
-            { name: 'Blue Lock', url: 'https://readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
-            { name: 'Dandadan', url: 'https://readdandadanmanga.online/', desc: 'Aliens & ghosts chaos', emoji: '👾' },
-            { name: 'Gachiakuta', url: 'https://readgachiakutamanga.online/', desc: 'Trash-powered warrior', emoji: '🗑️' },
-            { name: 'Kingdom', url: 'https://readkingdommanga.online/', desc: '876 ch. epic history', emoji: '🏯' },
+            { name: 'Kagurabachi', url: 'https://www.kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
+            { name: 'Blue Lock', url: 'https://www.readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
+            { name: 'Dandadan', url: 'https://www.readdandadanmanga.online/', desc: 'Aliens & ghosts chaos', emoji: '👾' },
+            { name: 'Gachiakuta', url: 'https://www.readgachiakutamanga.online/', desc: 'Trash-powered warrior', emoji: '🗑️' },
+            { name: 'Kingdom', url: 'https://www.readkingdommanga.online/', desc: '876 ch. epic history', emoji: '🏯' },
           ].map(site => (
             <a key={site.url} href={site.url} target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center gap-2 p-5 bg-white/3 border border-white/5 rounded-xl hover:border-bb-blue/30 hover:bg-bb-blue/5 transition-all text-center">
               <span className="text-3xl">{site.emoji}</span>

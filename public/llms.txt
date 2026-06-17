@@ -20,11 +20,11 @@ Nano Machine Manga is a fan reading platform dedicated to the manhwa series "Nan
 - Yeowun's father — the Lord of the Demonic Cult
 
 ## Site Pages
-- Homepage: https://nanomachinemanga.online/
-- All Chapters: https://nanomachinemanga.online/manga
-- Chapter Reader: https://nanomachinemanga.online/chapter/{number}
-- Characters: https://nanomachinemanga.online/characters
-- About: https://nanomachinemanga.online/about
+- Homepage: https://www.nanomachinemanga.online/
+- All Chapters: https://www.nanomachinemanga.online/manga
+- Chapter Reader: https://www.nanomachinemanga.online/chapter/{number}
+- Characters: https://www.nanomachinemanga.online/characters
+- About: https://www.nanomachinemanga.online/about
 
 ## Contact
 Email: support@nanomachinemanga.online

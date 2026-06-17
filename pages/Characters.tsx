@@ -9,17 +9,17 @@ const Characters: React.FC = () => {
       <SEOHead
         title="Nano Machine Manga Characters - Full Character Guide"
         description="Complete character database for Nano Machine manhwa. Profiles of Cheon Yeo-Woon, Nano AI, Mar Kim, and every major figure in the Demonic Cult."
-        canonicalUrl="https://nanomachinemanga.online/characters"
+        canonicalUrl="https://www.nanomachinemanga.online/characters"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Nano Machine Manga Characters",
           "description": "Complete character database for Nano Machine manhwa. Profiles of Cheon Yeo-Woon, Nano AI, Mar Kim, and every major figure in the Demonic Cult.",
-          "url": "https://nanomachinemanga.online/characters",
+          "url": "https://www.nanomachinemanga.online/characters",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Nano Machine Manga",
-            "url": "https://nanomachinemanga.online/"
+            "url": "https://www.nanomachinemanga.online/"
           }
         }}
       />
