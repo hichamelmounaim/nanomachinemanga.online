@@ -1,65 +1,39 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { SEOMeta } from '../types';
 
 interface SEOHeadProps extends SEOMeta {
   canonicalUrl?: string;
+  ogType?: string;
+  ogImage?: string;
+  schemas?: object[];
 }
 
-const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonicalUrl }) => {
-  useEffect(() => {
-    // Update Title
-    document.title = `${title} | Nano Machine Manga`;
-
-    // Update Meta Description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', description);
-
-    // Update Open Graph tags
-    const setOgMeta = (property: string, content: string) => {
-      let el = document.querySelector(`meta[property="${property}"]`);
-      if (!el) {
-        el = document.createElement('meta');
-        el.setAttribute('property', property);
-        document.head.appendChild(el);
-      }
-      el.setAttribute('content', content);
-    };
-    setOgMeta('og:title', title);
-    setOgMeta('og:description', description);
-    setOgMeta('twitter:title', title);
-    setOgMeta('twitter:description', description);
-
-    // Add Canonical Tag
-    if (canonicalUrl) {
-      let linkCanonical = document.querySelector('link[rel="canonical"]');
-      if (!linkCanonical) {
-        linkCanonical = document.createElement('link');
-        linkCanonical.setAttribute('rel', 'canonical');
-        document.head.appendChild(linkCanonical);
-      }
-      linkCanonical.setAttribute('href', canonicalUrl);
-    }
-
-    // Add Schema.org JSON-LD
-    if (schema) {
-      let scriptSchema = document.querySelector('#structured-data');
-      if (!scriptSchema) {
-        scriptSchema = document.createElement('script');
-        scriptSchema.id = 'structured-data';
-        scriptSchema.setAttribute('type', 'application/ld+json');
-        document.head.appendChild(scriptSchema);
-      }
-      scriptSchema.textContent = JSON.stringify(schema);
-    }
-
-  }, [title, description, schema, canonicalUrl]);
-
-  return null;
+const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, schemas, canonicalUrl, ogType = 'website', ogImage = 'https://www.readgachiakutamanga.online/gachiakuta-manga-cover.jpg' }) => {
+  return (
+    <Helmet>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:type" content={ogType} />
+      <meta property="og:image" content={ogImage} />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={ogImage} />
+      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+      {schema && (
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      )}
+      {schemas && schemas.length > 0 && schemas.map((s, i) => (
+        <script type="application/ld+json" key={i}>
+          {JSON.stringify(s)}
+        </script>
+      ))}
+    </Helmet>
+  );
 };
 
 export default SEOHead;

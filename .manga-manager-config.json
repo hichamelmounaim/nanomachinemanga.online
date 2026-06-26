@@ -84,6 +84,21 @@
       "date": "2026-06-17T10:44:22.540Z",
       "type": "manual_edit",
       "description": "Auto-Push: Successfully committed and pushed updates to GitHub repository (main branch)."
+    },
+    {
+      "id": "j10kk7i",
+      "date": "2026-06-26T15:37:15.187Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. Found 2 new chapter(s): Ch. 317, Ch. 318.",
+      "details": {
+        "newChaptersCount": 2,
+        "newChapterNumbers": [
+          317,
+          318
+        ],
+        "totalChapters": 317,
+        "bulkSync": true
+      }
     }
   ]
 }
